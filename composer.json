@@ -1,0 +1,24 @@
+{
+    "name": "progrupa/dhl24-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kamix",
+            "homepage": "https://github.com/kamix",
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Progrupa\\DHL24Bundle\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/symfony": "~2.6"
+    },
+    "require-dev": {
+    },
+    "extra": {
+    }
+}
