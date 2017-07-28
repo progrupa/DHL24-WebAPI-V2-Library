@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "DHL\\": "lib/Dhl/"
+            "Dhl\\": "lib/Dhl/"
         }
     },
     "require": {
