@@ -14,6 +14,7 @@ class Address implements Structure {
     private $street;
     private $houseNumber;
     private $apartmentNumber;
+    private $country;
     private $contactPerson;
     private $contactPhone;
     private $contactEmail;
@@ -88,6 +89,14 @@ class Address implements Structure {
 
     public function setContactEmail($contactEmail) {
         $this->contactEmail = $contactEmail;
+    }
+    
+    public function getCountry() {
+        return $this->country;
+    }
+
+    public function setCountry($country) {
+        $this->country = $country;
     }
 
     public function toArray() {
