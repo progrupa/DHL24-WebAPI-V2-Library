@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Progrupa\\DHL24Bundle\\": ""
+            "DHL\\": "lib/Dhl/"
         }
     },
     "require": {
