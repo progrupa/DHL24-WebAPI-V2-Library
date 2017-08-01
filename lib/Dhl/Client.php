@@ -179,6 +179,18 @@ class Client {
         
         return $result->bookCourierResult->item;
     }
+	
+    public function getTrackAndTraceInfo($shipmentId)
+    {
+        $arguments = array(
+            'authData'   => $this->authData->toArray(),
+            'shipmentId' => $shipmentId
+        );
+
+        $result = $this->soapClient->getTrackAndTraceInfo($arguments);
+
+        return $result;
+    }
     
     public function isShipmentExist($shipmentId)
     {
